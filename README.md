@@ -1,30 +1,13 @@
 
 ```
- _____         _  _                     _    _     
-|  ___|       (_)| |                   | |  | |    
-| |__  __   __ _ | |  ___   __ _  _ __ | |_ | |__  
-|  __| \ \ / /| || | / _ \ / _` || '__|| __|| '_ \ 
-| |___  \ V / | || ||  __/| (_| || |   | |_ | | | |
-\____/   \_/  |_||_| \___| \__,_||_|    \__||_| |_|
-                                                   
-                                                   
+   ___    _        __                     __    _            __   _              
+  / _ \  (_) ____ / /_ __ __  ____ ___   / /   (_)  ___  ___/ /  (_)  ___   ___ _
+ / ___/ / / / __// __// // / / __// -_) / _ \ / /  / _ \/ _  /  / /  / _ \ / _ `/
+/_/    /_/  \__/ \__/ \_,_/ /_/   \__/ /_.__//_/  /_//_/\_,_/  /_/  /_//_/ \_, / 
+                                                                          /___/
+[Version： 1.0]
 
 ```
-## 安装
-
-```bash
-pip install PyQt5
-
-```
-
-## 运行
-
-```bash
-
-python Picturebinding.py
-
-```
-
 ## 核心 
 
 1. **加密嵌入阶段**  
@@ -39,6 +22,29 @@ python Picturebinding.py
    - 提取标记之后的所有数据（即加密的 Shellcode）。  
    - 使用相同的 XOR 密钥解密得到原始 Shellcode。  
    - 调用 Windows API（`VirtualAlloc`、`memmove`、`CreateThread`）在内存中分配可执行空间并执行。
+
+
+## 安装
+
+```bash
+https://github.com/Evilearth-dotcom/Steganography-bypassing-EDR.git
+```
+
+```bash
+cd Steganography-bypassing-EDR
+```
+
+```bash
+pip install PyQt5
+```
+
+## 运行
+
+```bash
+python Picturebinding.py
+```
+
+
 
 ## 运行效果  
 
