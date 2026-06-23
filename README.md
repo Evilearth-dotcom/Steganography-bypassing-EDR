@@ -23,6 +23,13 @@
    - 使用相同的 XOR 密钥解密得到原始 Shellcode。  
    - 调用 Windows API（`VirtualAlloc`、`memmove`、`CreateThread`）在内存中分配可执行空间并执行。
 
+3. **联系**
+   - Session：054b4fc8d298d5e28d6b5f9e449da38734d92b90915c418ddddb18bed7d5a7015f
+     
+  
+   
+
+
 
 ## 安装
 
