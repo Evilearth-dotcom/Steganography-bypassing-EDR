@@ -34,7 +34,7 @@
 ## 安装
 
 ```bash
-https://github.com/Evilearth-dotcom/Steganography-bypassing-EDR.git
+git clone https://github.com/Evilearth-dotcom/Steganography-bypassing-EDR.git
 ```
 
 ```bash
